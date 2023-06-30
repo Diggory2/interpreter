@@ -2,7 +2,7 @@
 #include "Move.h"
 namespace Interpretator
 {
-  
+   
         void move::operator()(CPU& cpu) noexcept
         {
             const uint8_t mode = cpu.GetCmd().cmd16.r2;
